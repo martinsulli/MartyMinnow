@@ -9,7 +9,7 @@ behaviour_experiment(treatments, params)
 \arguments{
 \item{treatments}{Explanatory variable values in experimental treatments}
 
-\item{params}{Parameters used by *suitability* to generate environment relationship. Don't worry about this as this function is only called internally.}
+\item{params}{Parameters used by \emph{suitability} to generate environment relationship. Don't worry about this as this function is only called internally.}
 }
 \description{
 This function simulates the outcome of a behavioural (stress-gulping) assay from a given input set of treatments

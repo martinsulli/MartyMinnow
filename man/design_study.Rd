@@ -8,13 +8,15 @@ design_study()
 }
 \description{
 This function takes the user through a sequence of interactive options to get them to design their study. You will be asked
-* Do you want to do an experiment, a field study or both
-* If you do an experiment, do you want to look at one variable at a time, or use a factorial design?
-* What levels of each variable to you want to set as experimental treatments. E.g. 5C, 10C, 15C.
-* How many replicates do you want of each treatment
-* If you are doing field sampling, so you want samples to sample in a local area (cheaper), over a large-scale (expensive but samples wider range of environmental conditons) or clustered (some spatially distance sampling locations, then local-scale sampling around these)
-* How many samples you want to take
+\itemize{
+\item Do you want to do an experiment, a field study or both
+\item If you do an experiment, do you want to look at one variable at a time, or use a factorial design?
+\item What levels of each variable to you want to set as experimental treatments. E.g. 5C, 10C, 15C.
+\item How many replicates do you want of each treatment
+\item If you are doing field sampling, so you want samples to sample in a local area (cheaper), over a large-scale (expensive but samples wider range of environmental conditons) or clustered (some spatially distance sampling locations, then local-scale sampling around these)
+\item How many samples you want to take
 The function will simulate data based on your design, and print the cost of your design
+}
 }
 \author{
 Martin Sullivan
