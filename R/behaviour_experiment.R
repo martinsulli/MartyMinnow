@@ -2,6 +2,7 @@
 #' @description This function simulates the outcome of a behavioural (stress-gulping) assay from a given input set of treatments
 #' @param treatments  Explanatory variable values in experimental treatments
 #' @param params Parameters used by *suitability* to generate environment relationship. Don't worry about this as this function is only called internally.
+#' @export
 #' @author Martin Sullivan
 
 behaviour_experiment<-function(treatments,params){

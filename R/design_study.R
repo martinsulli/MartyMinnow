@@ -7,6 +7,7 @@
 #' * If you are doing field sampling, so you want samples to sample in a local area (cheaper), over a large-scale (expensive but samples wider range of environmental conditons) or clustered (some spatially distance sampling locations, then local-scale sampling around these)
 #' * How many samples you want to take
 #' The function will simulate data based on your design, and print the cost of your design
+#' @export
 #' @author Martin Sullivan
 
 design_study <- function(){

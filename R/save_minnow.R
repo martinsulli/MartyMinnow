@@ -1,7 +1,8 @@
 #' @title Save the Marty Minnow
 #' @description Put your work into practice and see if you can save the Marty Minnow. This function takes interative input, and asks you to set the temperature and pH you recommend keeping your minnows at. It will then simulate how many minnows survive - have you saved the minnow, or is there something fishy with your advice?
+#' @export
 #' @author Martin Sullivan
-#'
+
 save_minnow<-function(){
   print("What conditions should Marty Minnow be kept at?")
   z<-readline("Temperature")

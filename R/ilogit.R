@@ -1,6 +1,7 @@
 #' @title ilogit
 #' @description Inverse logit transformation
 #' @param x Variable to be inverse logit transformed
+#' @export
 #' @author From the Faraway package
 
 ilogit<-function (x)

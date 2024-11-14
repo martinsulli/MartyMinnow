@@ -10,6 +10,7 @@
 #' @param a5 yep, see a1
 #' @param a6 ditto
 #' @param v2clamp Documenting these would be giving too much away, sorry!
+#' @export
 #' @author Martin Sullivan
 
 suitability<-function(v1,v2,save.parms=FALSE,a1=-10,a2=3,a3=-0.3,a4=5, a5=-0.6,a6=-0.02,v2clamp=2){
